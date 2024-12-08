@@ -1148,7 +1148,8 @@
     visibility: hidden;
     transition: all 0.3s ease;
     z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    outline: none;
   }
 
   .scroll-to-top.show {
@@ -1165,4 +1166,5 @@
     width: 24px;
     height: 24px;
     stroke-width: 2;
+    stroke: white;
   }
